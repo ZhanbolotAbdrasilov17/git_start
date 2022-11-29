@@ -1,0 +1,47 @@
+.start{
+    border: 1px solid #787CD2;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    background-color: #fff;
+
+
+}
+
+.start:hover{
+    cursor: pointer;
+    background-color:#787CD2;
+}
+
+
+.start:hover path {
+    fill: #fff;
+
+}
+
+.add{
+    padding: 15px;
+    color: #fff;
+    font-size: 20px;
+    text-transform: uppercase;
+    background-color: #259C5C;    ;
+    border: none;
+    display: flex;
+    align-items: center;
+}
+
+.add:hover {
+    color: #305B44;
+    background-color: #ADE2C5;
+}
+
+.add:hover .icon {
+    background-image: url(./Vector\ \(4\).png)
+}
+.icon{
+    width: 31px;
+    height: 31px;
+    background-image: url(./house.png);
+    display: block;
+    margin-right: 52px;
+}

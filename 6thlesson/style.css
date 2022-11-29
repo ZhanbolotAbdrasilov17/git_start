@@ -1,0 +1,31 @@
+.main{
+    height: 500px;
+    width: 500px;
+    background-color: orange;
+    padding: 70px;
+}
+
+.second{
+    height: 100%;
+    width: 100%;
+    background-color: green;
+    position: relative;
+    }
+
+.third {
+    height: 50%;
+    width: 50%;
+    background-color: black;
+    position: absolute;
+    bottom: 0;
+
+}
+
+.last {
+    height: 50%;
+    width: 50%;
+    background-color: orange;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}

@@ -1,0 +1,105 @@
+body{
+    background-color: white;
+}
+
+/* .field{
+display: flex;
+align-items: center;
+}
+
+.field input[type="radio"] {
+    margin-right: 10px;
+
+}
+
+select{
+    background-color: blue;
+    border: none;
+    width: 100%;
+    appearance: none;
+    padding: 20px;
+    position: absolute;
+    background-image: url(./arrow.svg);
+    background-repeat: no-repeat;
+    background-position: 50px 10px;
+    background-position: calc(100% - 20px) 50%
+}
+
+/* select::after{
+    content: 'A';
+    width: 15px;
+    height: 10px;
+    position: absolute;
+    background-color: gold;
+    top: 0;
+    left: 0;
+} */
+
+form{
+    padding: 20px;
+    margin: 20px;
+    background-color: #fff;
+}
+
+fieldset{
+    background-color: gold;
+    border: none;
+} 
+
+input[type="range"]{
+    appearance: none;
+    height: 6px;
+    background-color: green;
+    width: 100%;
+}
+
+input[type="range"]::-webkit-slider-thumb {
+    appearance: none;
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    border-radius: 58%;
+}
+
+input[type="color"]{
+    background-color: gold;
+    border: none;
+    padding: 0;
+    width: 50px;
+    height: 50px;
+}
+
+input[type="color"]::-webkit-color-swatch-wrapper{
+    padding: 10px;
+}
+
+input[type="color"]::-webkit-color-swatch{
+    border: none;
+}
+
+#file {
+    display: block;
+    margin-top: 20px;
+    appearance: none;
+}
+
+#date{
+    background-color: yellow;
+    width: 200px;
+}
+
+#file{
+    display: none;
+    margin-top: 20px;
+}
+
+.file-label{
+    background-color: green;
+    color: white;
+    width: 200px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}

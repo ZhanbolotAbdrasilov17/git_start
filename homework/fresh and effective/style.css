@@ -1,0 +1,161 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    font-family: Tahoma;
+  }
+
+
+menu{
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-right: auto;
+    margin-left: 219px;
+}
+
+menu>li {
+    list-style: none;
+    font-size: 18px;
+    margin-right: 87px;
+  }
+
+  header{
+    margin-top: 46px;
+    margin-left: 44px;
+    display: flex;
+    align-items: center;
+  }
+
+
+
+
+  .signup{
+    width: 149px;
+    height: 57px;
+    background-color: #fff;
+    border: 2px;
+    border-radius: 20px;
+    opacity: 0.5;
+
+  }
+
+  .icon1{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #303440;
+    text-transform: uppercase;
+
+  }
+
+  .signin{
+    width: 149px;
+    height: 57px;
+    background: #303440;
+    border-radius: 20px;
+    
+  }
+
+  .icon2{
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #fff;
+  }
+
+  section{
+    display: flex;
+  }
+
+  .ads{
+    width: 316px;
+    height: 34px;
+    left: 212px;
+    top: 302px;
+    font-weight: 400;
+    font-size: 28px;
+    white-space: nowrap;
+    color: #000000;
+    text-transform: uppercase;
+    position: absolute;
+  }
+
+  .name{
+    width: 425px;
+    height: 164px;
+    left: 207px;
+    top: 369px;
+    font-weight: 700;
+    font-size: 68px;
+    line-height: 82px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    position: absolute;
+  }
+
+  .fresh{
+    color: #57D338;
+
+  }
+
+  .disc{
+    width: 377px;
+    height: 66px;
+    left: 212px;
+    top: 566px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    position: absolute;
+  }
+
+
+  .shopit{
+    justify-content: center;
+    align-items: center;
+    background: #303440;
+    left: 212px;
+    top: 666px;
+    bottom: 302px;
+    border-radius: 20px;
+    width: 276px;
+    height: 56px;
+    
+    position: absolute;
+  }
+
+  .icon3{
+    width: 83px;
+    height: 22px;
+    font-weight: 700;
+    font-size: 18px;
+    color: #FFFFFF;
+  }
+
+  .circle-1 {
+    width: 375px;
+    height: 375px;
+    background-color: #ADF89B;
+    border-radius: 300px;
+    left: 755px;
+    top: 302px;
+
+    align-items:center;
+    position: absolute;
+    
+}
+.circle-2 {
+    width: 375px;
+    height: 375px;
+    border-radius: 300px;
+    background-color: #FEF391;
+    left: 858px;
+    top: 338px;
+    
+    position: absolute;
+    align-items: center;
+    z-index: -1;
+   
+}

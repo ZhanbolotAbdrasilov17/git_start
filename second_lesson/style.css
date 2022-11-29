@@ -1,0 +1,72 @@
+body {
+    background-color: #715298;
+    font-family: Verdana;
+    color: white;
+}
+
+.first-block{
+    Width: 700px;
+    Height: 50px;
+    background: linear-gradient(180deg, #FFE16A 0%, #ABF264 100%);
+}
+
+h1 {
+    
+    font-style: normal;
+    font-weight: normal;
+    font-size: 80px;
+    text-align: center;
+    margin-top: 64px;
+    margin-bottom: 64px;
+
+}
+
+.right {
+    text-align: right;
+    box-sizing: border-box;
+    
+
+}
+
+img {
+    border: 10px solid #FFFFFF;
+    position: relative;
+    width: 751px;
+    height: 291px;
+}
+
+.text-area {
+    border: 4px dashed #6AFF82;
+    margin-top: 32.1px;
+}
+
+.p1 {
+    width: 1077px;
+    margin-left: 125px;
+}
+
+.p2 {
+    width: 563px;
+    margin-left: 125px;
+    text-align: right;
+}
+
+#my8th {
+    background-color: #FFE600;
+    width: 375px;
+    height: 153px;
+    font-size: 40px;
+    border: none;
+
+}
+
+#my8th:active {
+    background-color: green;
+   
+
+}
+
+.button-container {
+    text-align: center;
+    margin-top: 277px;
+}

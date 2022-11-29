@@ -1,0 +1,18 @@
+@import "./text.css";
+
+
+:root{
+  --main-color: gold;
+  --text-size: 50px;
+
+}
+
+h2 {
+    color: var(--main-color);
+    font-size: var(--text-size);
+
+}
+
+p{
+    color: var(--main-color);
+}

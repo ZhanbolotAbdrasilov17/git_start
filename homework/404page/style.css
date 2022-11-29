@@ -1,0 +1,58 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Tahoma';
+    font-style: normal;
+}
+
+body {
+    background-color: #CDD0DA;
+    
+}
+
+
+.emoji {
+    text-align: center;
+    
+    margin-top: 50px;
+}
+
+.emoji img{
+    width: 100px;
+    height: 100px;
+}
+
+.main {
+    text-align: center;
+    margin: 55px auto;
+    border: 4px dashed #FFFFFF;
+    padding: 20px 60px 63px;
+    width: fit-content;
+}
+
+
+.error__title {
+    font-weight: 700;
+    font-size: 166px;
+    margin: 0px;
+    color: #FFFFFF;
+}
+
+.error__subtitle {
+    font-weight: 400;
+    font-size: 52px;
+    line-height: 63px;
+    white-space: nowrap;
+    margin-bottom: 35px;
+    text-transform: uppercase;
+    color: #000000;
+}
+
+.error__desc {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    text-align: center;
+    color: #C83737;
+}

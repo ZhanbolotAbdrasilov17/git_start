@@ -1,0 +1,47 @@
+body{
+    margin: 0;
+    padding: 0;
+  }
+  .up-first{
+    background-color: black;
+    width:calc(100%/3 - 20%);
+    height: 50px;
+    margin-left: 20%;
+  }
+  .up-second{
+    background-color: grey;
+    width: calc(100%/3);
+    height: 100px;
+  }
+  .up-third{
+    background-color: orange;
+    width: calc(100%/3 - 20% + 5%);
+    height: 100px;
+    margin-left: calc(30%/2);
+  }
+  .middle{
+    background-color: plum;
+    width: 70%;
+    height: 200px;
+    margin: 0 auto;
+  }
+  
+  .leg-left{
+    background-color: red;
+    width: calc(100%/6);
+    height: 300px;
+    margin-left: calc(30%/2);
+    display: inline-block;
+    
+  }
+  .leg-right{
+    background-color: green;
+    width: calc(100%/6);
+    height: 300px;
+    margin-left: calc(70% - 100%/6*2);
+    display: inline-block;
+   
+   
+  } 
+  
+  

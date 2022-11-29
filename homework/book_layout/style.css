@@ -1,0 +1,21 @@
+main{
+    width: 500px;
+}
+
+
+.pic {
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+    margin: 30px;
+    
+  
+}
+
+.pic:nth-of-type(even){
+    float: left;
+}
+
+.pic:nth-of-type(odd){
+    float: right;
+}
